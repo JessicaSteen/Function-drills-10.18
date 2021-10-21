@@ -5,8 +5,11 @@
 */
 
 //CODE HERE
+function helloWorld() {
+  console.log("Hello, world!");
+}
 
-
+helloWorld();
 ////////////////// PROBLEM 2 ////////////////////
 /*
   Create a function called printName which takes in a person's name and console logs it.
