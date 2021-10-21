@@ -113,6 +113,7 @@ console.log(colorRating);
 
 ////////////////// PROBLEM 7 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
+let namesArrTwo = ['Jessica', 'Brett', 'Bernie', 'Forrest']
 /*
   Create a function called printAllNames that takes in a single argument (an array of names).
   Using a for loop, iterate over that array and console log each name.
@@ -125,7 +126,8 @@ function printAllNames(names) {
     console.log(names[i]);
   }
 }
-printAllNames(namesArr);
+printAllNames(namesArrTwo);
+
 ////////////////// PROBLEM 8 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
@@ -135,8 +137,15 @@ printAllNames(namesArr);
 */
 
 //CODE HERE
-
-
+function thatsOdd(num){
+  if (num % 2 === 0) {
+    return 'Thats not odd!'
+  } else {
+    return 'That is odd indeed!'
+  }
+}
+let oddChecker = thatsOdd(2);
+console.log(oddChecker)
 ////////////////// PROBLEM 9 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 /* 
