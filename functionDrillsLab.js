@@ -10,6 +10,7 @@ function helloWorld() {
 }
 
 helloWorld();
+
 ////////////////// PROBLEM 2 ////////////////////
 /*
   Create a function called printName which takes in a person's name and console logs it.
@@ -18,8 +19,10 @@ helloWorld();
 */
 
 //CODE HERE
-
-
+function printName(person1) {
+  console.log(person1);
+}
+printName("Cameron");
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called greeting that
