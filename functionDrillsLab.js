@@ -23,6 +23,7 @@ function printName(person1) {
   console.log(person1);
 }
 printName("Cameron");
+
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called greeting that
@@ -35,8 +36,12 @@ printName("Cameron");
 */
 
 //CODE HERE
+function greeting(name) {
+  const nameString = String(name);
+  console.log(`Hello, ${name}`);
+}
 
-
+greeting("jake");
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called add that takes in two parameters 
