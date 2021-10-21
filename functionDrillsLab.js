@@ -59,20 +59,32 @@ function add(num1, num2) {
   return (num1 + num2);
 }
 let sum = add(1, 2);
-console.log(sum)
+// console.log(sum)
 
 ////////////////// PROBLEM 5 ////////////////////
 /*
   Write a function called nameCheck that takes in a name parameter.
   nameCheck should check if the name equals 'Steven'. If it does, return 'What is up Steven?'
   If the name parameter is equal to Bryan, return 'Hey Bryan!'
-  If the name parameter is anything else, return 'Cool name, NAMEPARAM' (with NAMEPARAM being the value of the name parameter being passed in).
-  Create a variable called 'nameGreeting' and set it equal to your function invoked (called) passing in an argument.
+  If the name parameter is anything else, return 'Cool name, NAMEPARAM' (with NAMEPARAM being the value of 
+  the name parameter being passed in).
+  Create a variable called 'nameGreeting' and set it equal to your function invoked (called) 
+  passing in an argument.
 */
 
 //CODE HERE
+function nameCheck(name) {
+  if (name === "Steven") {
+  return ("what is up, Steven?");
+} else if (name === "Bryan") {
+  return ("Hey Bryan!");
+} else {
+  return (`Cool name ${name}`);
+}
+}
 
-
+let nameGreeting = nameCheck("Jessica");
+console.log(nameGreeting);
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
