@@ -83,7 +83,7 @@ function nameCheck(name) {
 }
 }
 
-let nameGreeting = nameCheck("Jessica");
+let nameGreeting = nameCheck("Bernie");
 console.log(nameGreeting);
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -110,6 +110,7 @@ function faveColorFinder(color) {
 }
 let colorRating = faveColorFinder ("blue");
 console.log(colorRating);
+
 ////////////////// PROBLEM 7 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 /*
@@ -119,8 +120,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+function printAllNames(names) {
+  for (let i = 0; i <= names.length -1; i++) {
+    console.log(names[i]);
+  }
+}
+printAllNames(namesArr);
 ////////////////// PROBLEM 8 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
