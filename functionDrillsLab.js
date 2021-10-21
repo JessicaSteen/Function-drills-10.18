@@ -92,12 +92,24 @@ console.log(nameGreeting);
   If the passed in color equals 'green', return 'green is a solid favorite color'
   If the passed in color equals 'black', return 'so trendy'
   Otherwise, you should return the string 'you need to evaluate your favorite color choice'
-  Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing in an argument.
+  Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing 
+  in an argument.
 */
 
 //CODE HERE
-
-
+function faveColorFinder(color) {
+  if (color === "red") {
+    return "red is a great color.";
+  } else if (color === "green") {
+    return "green is a solid favorite color"
+  } else if (color === "black") {
+    return "so trendy"
+  } else {
+    return "you need to evaluate your favorite color choice"
+  }
+}
+let colorRating = faveColorFinder ("blue");
+console.log(colorRating);
 ////////////////// PROBLEM 7 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 /*
